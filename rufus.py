@@ -24,4 +24,4 @@ def main(git_dir):
     print("blame Rufus: ", is_rufus )
 
 if __name__ == "__main__":
-    main(sys.arg[1])
+    main(sys.argv[1])
